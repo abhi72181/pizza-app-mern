@@ -1,0 +1,18 @@
+.forupperspace{
+    width: 100%;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.thankscont{
+    width: 60%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.insidethankscont{
+  
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}

@@ -1,0 +1,108 @@
+.mainNav{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    /* background-color: lightgrey; */
+    /* background-color:beige */
+}
+
+.topNav{
+    width: 100%;
+    display: flex;
+  
+  
+}
+.bottomNav{
+    width: 100%;
+    display: flex;
+   
+    
+}
+
+.leftTopNav{
+    width: 50%;
+   /* margin: auto; */
+   margin-left: 5%;
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+
+.rightTopNav{
+    width: 50%;
+    
+    display: flex;
+    /* align-items: flex-end; */
+   justify-content: flex-end;
+   
+   padding-right: 5%;
+}
+
+
+.imgleftTopNav{
+    width: 25%;
+    padding-top: 10px;
+    
+}
+.inputleftTopNav{
+    width: 100%;
+    padding-top: 10px;
+}
+.inputDivTopNav{
+    width: 40%;
+    padding-top: 10px;
+}
+.welcome{
+    font-size: 18px;
+    font-weight: 700;
+}
+.belowrightTopNav{
+    margin-right: 10%;
+    padding-top: 10px;
+}
+.carticon{
+    padding-top: 10px;
+}
+.leftBottomNav{
+    width: 25%;
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.rightBottomNav{
+    width: 35%;
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.triangle{
+    padding-top: 10px;
+  
+}
+.CategoriesMain{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* justify-content: space-between; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 30px;
+}
+.CategoriesHeading{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+.footerList{
+    font-size: 16px;
+    color: darkgray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.inputFooter{
+   margin-top: 4px;
+}

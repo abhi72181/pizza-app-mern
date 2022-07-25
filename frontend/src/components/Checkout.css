@@ -1,0 +1,62 @@
+.mainCheckoutContainer{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.leftCheckoutContainer{
+    width: 48%;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 50px;
+}
+.rightCheckoutContainer{
+    width: 100%;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 50px;
+}
+.insideleftCheckoutContainer{
+    width: 90%;
+    margin: auto;
+}
+.flexInput{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.flexInputleft{
+    width: 47%;
+   
+}
+.flexInputright{
+    width: 47%;
+    
+}
+.rightCheckoutContainer{
+    width: 48%;
+    
+
+    
+}
+.firstCheckoutContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    background-color: #e9e8e8;
+    
+}
+.firstCheckoutContainerleft{
+    width: 70%;
+    
+   
+
+}
+.firstCheckoutContainerright{
+    width: 30%;
+    
+   
+
+}

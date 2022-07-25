@@ -1,0 +1,21 @@
+.pizzaCard{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.SelectDiv{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: space-evenly;
+}
+/* .cartDiv{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: space-evenly;
+} */
