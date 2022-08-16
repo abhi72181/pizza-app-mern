@@ -1,0 +1,44 @@
+.searchDiv{
+
+    display: flex;
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+}
+
+.searchBtn{
+    width: 200px;
+}
+
+@media only screen and (min-width:321px) and (max-width:767px){
+    .searchDiv{
+
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        margin:auto;
+        margin-top:30px;
+    }
+    .searchBtn{
+        width: 100%;
+        margin: auto;
+        /* align-items: center; */
+
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:320px){
+    .searchDiv{
+
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        margin:auto;
+        margin-top:30px;
+    }
+    .searchBtn{
+        width: 100%;
+        margin: auto;
+        /* align-items: center; */
+    }
+}

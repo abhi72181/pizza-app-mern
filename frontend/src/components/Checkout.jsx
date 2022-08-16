@@ -189,6 +189,7 @@ const Checkout = () => {
           <br />
           
           <Button
+            className="proceedBtn"
             colorScheme="orange" onClick={handleptop}
             style={{ width: "100%", margin: "auto", marginBottom: "100px" }}
           >
@@ -227,6 +228,14 @@ const Checkout = () => {
       <div style={{width:"90%" , marginLeft:"5%"}}>
       <Input style={{width:"50%"}} value={promodata} className='inputFooter' htmlSize={18} width='auto' placeholder='Promotional Code'  onChange={promoInputchange} />
     <Button disabled={count==1 ? true:false}  style={{width:"50%"}} colorScheme='orange' onClick={handlePromobtn}>Promotional Code</Button>
+    <br /><br />
+    <Button
+            className="proceedBtn2"
+            colorScheme="orange" onClick={handleptop}
+            style={{ width: "100%", margin: "auto", marginBottom: "100px" }}
+          >
+            Proceed to payment
+          </Button>
       </div>
        </div>
       

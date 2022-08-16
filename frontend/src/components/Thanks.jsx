@@ -23,7 +23,8 @@ function Thanks() {
 
             <div style={{width:"100%"}}>
           <Button
-            style={{ marginTop: "40px", width:"20%", marginLeft:"40%",marginBottom:"50px"}}
+            // style={{ marginTop: "40px", width:"20%", marginLeft:"40%",marginBottom:"50px"}}
+            className="continueShoppingBtn"
             onClick={handlechangeclick}
             colorScheme="orange"
           >

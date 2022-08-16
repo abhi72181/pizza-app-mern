@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Grid } from "@chakra-ui/react";
+import { Grid,SimpleGrid,Box } from "@chakra-ui/react";
 import Pizza from "./Pizza";
 // import PizzaArr from "../pizza-data";
 import { useDispatch, useSelector } from "react-redux";
@@ -29,8 +29,10 @@ const Home = () => {
    
     <div>
       
-      {loading ? <Loader /> : error ? <Failure error={error} /> :<div ><Filter  /> <Grid
-        templateColumns="repeat(3, 1fr)"
+      {loading ? <Loader /> : error ? <Failure error={error} /> :<div ><Filter  />
+       {/* <Grid
+       columns={{sm: 2, md: 3}}
+        // templateColumns="repeat(3, 1fr)"
         gap={6}
         style={{ width: "90%", margin: "auto",marginTop:"70px"}}
       >
@@ -38,7 +40,15 @@ const Home = () => {
         {data.map((e) => (
           <Pizza key={e.name} e={e} />
         ))}
-      </Grid></div>}
+      </Grid> */}
+      <SimpleGrid columns={[1, 2, 3]} spacing='40px' style={{ width: "90%", margin: "auto",marginTop:"70px"}}>
+        {data.map((e)=>(
+          <Pizza key={e.name} e={e} />
+        ))}
+  
+  
+</SimpleGrid>
+      </div>}
     
      
     </div>

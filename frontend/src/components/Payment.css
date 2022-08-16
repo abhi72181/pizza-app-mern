@@ -32,3 +32,29 @@ border-radius:30px;
 background-color:darkgreen;
 
 }
+
+@media only screen and (min-width:321px) and (max-width:867px){
+  #otpbox{
+    width:60%;
+    padding:5%;
+    margin:auto;
+    /* text-align:center; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+ 
+}
+
+@media only screen and (min-width:0px) and (max-width:320px){
+  #otpbox{
+    width:90%;
+    padding:5%;
+    margin:auto;
+    /* text-align:center; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+ 
+}

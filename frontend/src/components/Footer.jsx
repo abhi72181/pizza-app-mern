@@ -1,7 +1,7 @@
 // import { list } from '@chakra-ui/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from '@chakra-ui/react'
+import { Button,SimpleGrid } from '@chakra-ui/react'
 import "./Footer.css"
 import { Input } from '@chakra-ui/react'
 const Footer = () => {
@@ -24,10 +24,10 @@ const Footer = () => {
    
 ]
   return (
-    
+    <div style={{width:"90%",margin:"auto"}}>
     <div className='footerMain'>
-        
-   {footerData.map((e)=>{
+         <SimpleGrid columns={[1, 3, 4]} spacing='40px' >
+         {footerData.map((e)=>{
     return (
        
         <div key={e.heading} >
@@ -43,20 +43,23 @@ const Footer = () => {
                
             )
         })}
-       
-       
+       {/* <br /> */}
+      
         </div>
        
         
         
     )
    })}
-   <div>
+    <div >
     <Input className='inputFooter' htmlSize={18} width='auto' placeholder='Your Email Address' />
     <Button colorScheme='orange'>Subscribe</Button>
     </div>
-    </div>
+</SimpleGrid>
    
+  
+    </div>
+    </div>
    
   )
 }

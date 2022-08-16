@@ -114,6 +114,7 @@ const Cart = () => {
                 <div style={{ marginLeft: "20px", marginTop: "-25px" }}>
                   {e.quantity} * ₹{e.prices[0][e.varient]} = ₹{e.price}
                 </div>
+                <br />
               </p>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Filter.css"
 import {
   FormControl,
  
@@ -12,7 +13,7 @@ const Filter = () => {
     const [search,setSearch]=useState("")
     const [category,setCategory]=useState("all")
   return (
-    <div style={{display:"flex",width:"80%",margin:"auto",marginTop:"30px"}}>
+    <div className="searchDiv" >
       <FormControl>
         
         <Input  placeholder="search pizza" value={search} onChange={(e)=>setSearch(e.target.value)} />
@@ -24,7 +25,7 @@ const Filter = () => {
         <option value="nonveg pizza">Nonveg Pizza</option>
       </Select>
       <br />
-      <Button colorScheme="orange" style={{width:"200px"}} onClick={()=>dispatch(filterPizzaAction(search,category))}>Search</Button>
+      <Button className="searchBtn" colorScheme="orange"  onClick={()=>dispatch(filterPizzaAction(search,category))}>Search</Button>
     </div>
   );
 };
